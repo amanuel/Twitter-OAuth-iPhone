@@ -21,7 +21,7 @@
 {
     if (self = [super initWithRequest:request delegate:delegate]) {
         _data = [[NSMutableData alloc] initWithCapacity:0];
-        _identifier = [[NSString stringWithNewUUID] retain];
+        _identifier = [[NSString stringWithNewID] retain];
         _requestType = requestType;
         _responseType = responseType;
 		_URL = [[request URL] retain];

@@ -12,7 +12,7 @@
 @implementation NSString (UUID)
 
 
-+ (NSString*)stringWithNewUUID
++ (NSString*)stringWithNewID
 {
     // Create a new UUID
     CFUUIDRef uuidObj = CFUUIDCreate(nil);
