@@ -13,3 +13,8 @@
 + (NSString*)stringWithNewID;
 
 @end
+@interface CatDummy : NSObject {
+  
+}
+
+@end
